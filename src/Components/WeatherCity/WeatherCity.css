@@ -1,0 +1,9 @@
+.o-card{
+    width: 25rem;
+    margin: 2rem 0 0.3rem 2rem;
+    padding: 0.3rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem hsl(0, 0%, 3%);
+    background: #ffffff;
+}

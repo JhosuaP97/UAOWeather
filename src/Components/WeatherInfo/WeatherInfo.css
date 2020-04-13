@@ -1,0 +1,12 @@
+.o-info{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff;
+    background: #0303D3;
+    border-radius: 0.5rem;
+}
+
+.o-container-temp{
+   margin: auto;
+}

@@ -1,0 +1,10 @@
+.o-temp{
+    display: flex;
+    margin: auto;
+    font-size: 3rem;
+    
+}
+
+.o-temp h2{
+    font-size: 2rem;
+}
