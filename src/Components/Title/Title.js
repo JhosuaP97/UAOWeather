@@ -1,5 +1,10 @@
 import React from "react";
-import "./Title.css";
+import "./Title.scss";
+/** 
+ * @param {*} props
+ * city = Texto a asignar al titulo de la ciudad
+*/
+
 
 const Title = props => {
   console.log("Parametros", props);

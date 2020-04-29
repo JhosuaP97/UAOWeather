@@ -1,15 +1,18 @@
 import React from "react";
 import WheaterTemp from "../WeatherTemp/WeatherTemp";
 import WeatherExtra from "../WeatherExtra/WeatherExtra";
-import "./WeatherInfo.css";
-const WeatherInfo = () => {
+import {SUNNY, RAIN,CLOUD,SNOW,WIND} from "../../Constants/Weathers";
+import "./WeatherInfo.scss";
+
+const WeatherInfo = ({data:{temp,state,humidity,wind}}) => {
+  
   return (
     <div className="o-info">
       <div className="o-container-temp">
-        <WheaterTemp />
+        <WheaterTemp temp={temp} weatherState={state} />
       </div>
 
-      <WeatherExtra humidity="15" wind="3 m/s"/>
+      <WeatherExtra humidity={humidity} wind={wind}/>
     </div>
   );
 };

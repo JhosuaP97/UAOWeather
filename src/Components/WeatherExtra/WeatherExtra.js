@@ -1,5 +1,12 @@
 import React from 'react'
-import "./WeatherExtra.css";
+import "./WeatherExtra.scss";
+
+
+/**
+ * 
+ * @param {Text} humidity 
+ * @param {Text} wind
+ */
 
 const WeatherExtra = ({humidity,wind}) =>(
     <div className="o-extra">
