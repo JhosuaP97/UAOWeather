@@ -7,8 +7,8 @@ import { SUNNY } from "../../Constants/Weathers";
 import convert from "convert-units";
 
 const location = "Cali,co";
-const api_key = "471878f6abe4a03c1cee5a558832b322";
-const endPoint = "http://api.openweathermap.org/data/2.5/weather";
+const api_key = "";
+const endPoint = "";
 const api_weather = `${endPoint}?q=${location}&appid=${api_key}`;
 
 const data = {
